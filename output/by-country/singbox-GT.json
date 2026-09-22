@@ -5,24 +5,22 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇧🇪 比利时 (Belgium) 01 - xiaohe",
-      "server": "141.98.233.6",
+      "tag": "🇬🇹 GT 01 - xiaohe",
+      "server": "185.47.254.251",
       "server_port": 443,
-      "uuid": "b2593749-691c-428c-9481-14979cba3446",
+      "uuid": "878fb7f7-fc65-465e-a352-17c7216c6f3d",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "xi.tbv.ccwu.cc",
-        "insecure": false,
+        "server_name": "gateway.icloud.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/proxyip=us.xiabibi.cf",
-        "headers": {
-          "Host": "xi.tbv.ccwu.cc"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "6-_ZidygR8PRt4gtHlGCAW-PPmjEIm7Wn7MZqJU1z1Q",
+          "short_id": "6c059ecfddf9b179"
         }
       }
     },
@@ -31,14 +29,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇧🇪 比利时 (Belgium) 01 - xiaohe"
+        "🇬🇹 GT 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇧🇪 比利时 (Belgium) 01 - xiaohe"
+        "🇬🇹 GT 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

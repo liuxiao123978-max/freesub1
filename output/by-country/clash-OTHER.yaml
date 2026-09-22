@@ -1,0 +1,31 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: rule
+log-level: info
+proxies:
+- name: 🌐 其他地区 (Other) 01 - xiaohe
+  server: ger.huge-b.com
+  port: 8880
+  udp: true
+  type: vless
+  uuid: 45eecf91-baf4-4772-913c-cf1507c54a99
+  network: httpupgrade
+  httpupgrade-opts:
+    path: /@Artemis_Vpn
+    headers:
+      Host: ger.huge-b.com
+proxy-groups:
+- name: PROXIES
+  type: select
+  proxies:
+  - AUTO
+  - 🌐 其他地区 (Other) 01 - xiaohe
+- name: AUTO
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  proxies:
+  - 🌐 其他地区 (Other) 01 - xiaohe
+rules:
+- MATCH,PROXIES
