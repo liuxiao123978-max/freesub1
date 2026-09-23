@@ -25,18 +25,39 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🇬🇷 希腊 (Greece) 02 - xiaohe",
+      "server": "91.186.218.227",
+      "server_port": 4443,
+      "uuid": "c4aba2a4-ce37-4133-a3bb-7fe23a21ea95",
+      "tls": {
+        "enabled": true,
+        "server_name": "7nnoiou0z.3xn99hzq2sh7iekktpkeq7rofs3qc8iohrqs4pb9p.workers.dev",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/@Marisa_kristi",
+        "headers": {
+          "Host": "7nnoiou0z.3xn99hzq2sh7iekktpkeq7rofs3qc8iohrqs4pb9p.workers.dev"
+        }
+      }
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇬🇷 希腊 (Greece) 01 - xiaohe"
+        "🇬🇷 希腊 (Greece) 01 - xiaohe",
+        "🇬🇷 希腊 (Greece) 02 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇬🇷 希腊 (Greece) 01 - xiaohe"
+        "🇬🇷 希腊 (Greece) 01 - xiaohe",
+        "🇬🇷 希腊 (Greece) 02 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
