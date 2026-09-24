@@ -5,38 +5,28 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇿 捷克 (Czech) 01 - xiaohe
-  server: 104.17.148.22
-  port: 80
-  udp: true
-  type: vless
-  uuid: 63f1ef69-92fd-427a-b3e4-98ffddf81ac6
-  network: ws
-  ws-opts:
-    path: /nPKoVRUdyuRZ6jpY/YnBiLnlvdXNlZi5pc2VnYXJvLmNvbSxwcm94eWlwLmNtbGl1c3Nzcy5uZXQsbmltYS5uc2NsLmlyLHR1cmsucmFkaWNhbGl6YXRpb24uaXI=
-    headers:
-      Host: young-rice-749e.heliy78750.workers.dev
-- name: 🇨🇿 捷克 (Czech) 02 - xiaohe
   server: 188.114.97.6
   port: 8080
   udp: true
   type: vless
-  uuid: 0991a0c4-0ee5-4213-af89-7ad589f853f3
+  uuid: 4908acbe-485f-4e1c-bb11-5dd04b9f7e88
   network: ws
   ws-opts:
-    path: /
+    path: /eyJqdW5rIjoiRjhycEV5WUpJTGZpQSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
     headers:
-      Host: elenaaaaaaaaaa.cloudns.pro
-- name: 🇨🇿 捷克 (Czech) 03 - xiaohe
-  server: 104.254.140.30
-  port: 8880
+      Host: restless-base-fe24.alirezahabibi20009.workers.dev
+- name: 🇨🇿 捷克 (Czech) 02 - xiaohe
+  server: frosty-pond-7436.shhabbyat914.workers.dev
+  port: 443
   udp: true
   type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  uuid: de78c0b1-c5c8-412a-bd92-430d1f2e2642
+  tls: true
+  servername: frosty-pond-7436.shhabbyat914.workers.dev
+  skip-cert-verify: false
   network: ws
   ws-opts:
     path: /
-    headers:
-      Host: vms.lifetime54.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
@@ -44,7 +34,6 @@ proxy-groups:
   - AUTO
   - 🇨🇿 捷克 (Czech) 01 - xiaohe
   - 🇨🇿 捷克 (Czech) 02 - xiaohe
-  - 🇨🇿 捷克 (Czech) 03 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -52,6 +41,5 @@ proxy-groups:
   proxies:
   - 🇨🇿 捷克 (Czech) 01 - xiaohe
   - 🇨🇿 捷克 (Czech) 02 - xiaohe
-  - 🇨🇿 捷克 (Czech) 03 - xiaohe
 rules:
 - MATCH,PROXIES
