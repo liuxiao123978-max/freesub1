@@ -8,11 +8,15 @@
       "tag": "🇯🇵 日本 (Japan) 01 (家宽) - xiaohe",
       "server": "128.241.25.11",
       "server_port": 30021,
-      "uuid": "eafc351e-e808-4e90-9282-1783ddd72f0b",
+      "uuid": "795afc16-eac7-44b1-8f3e-29488d73cf3a",
       "tls": {
         "enabled": true,
         "server_name": "2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev",
-        "insecure": false
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       },
       "transport": {
         "type": "ws",
@@ -25,23 +29,23 @@
     {
       "type": "vless",
       "tag": "🇯🇵 日本 (Japan) 02 (家宽) - xiaohe",
-      "server": "188.34.142.174",
-      "server_port": 444,
-      "uuid": "da46ec1f-84ad-4470-866f-010b58357b19",
+      "server": "128.241.25.11",
+      "server_port": 30021,
+      "uuid": "c7ba4965-c763-43a6-9aad-b4fb1f7303f6",
       "tls": {
         "enabled": true,
-        "server_name": "9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev",
+        "server_name": "5iv93opy8jus9z.bjo5si35c9i9ud4242fado49188obkoiermjuxj7zgxu.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "android"
         }
       },
       "transport": {
         "type": "ws",
         "path": "/@Marisa_kristi",
         "headers": {
-          "Host": "9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev"
+          "Host": "5iv93opy8jus9z.bjo5si35c9i9ud4242fado49188obkoiermjuxj7zgxu.workers.dev"
         }
       }
     },
