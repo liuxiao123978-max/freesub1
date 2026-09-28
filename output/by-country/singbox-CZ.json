@@ -6,35 +6,33 @@
     {
       "type": "vless",
       "tag": "🇨🇿 捷克 (Czech) 01 - xiaohe",
-      "server": "104.21.61.42",
-      "server_port": 443,
-      "uuid": "5b14b2cf-57e3-4f96-92f2-9695078f06d8",
-      "tls": {
-        "enabled": true,
-        "server_name": "001.inc-electrocell-001-001.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
+      "server": "153.76.185.147",
+      "server_port": 3090,
+      "uuid": "dca830a2-3c69-4e1b-bc0b-a2ea22af53ba",
       "transport": {
-        "type": "ws",
-        "path": "/eyJqdW5rIjoiSGdhak9tRkZLeDdwcCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
-        "headers": {
-          "Host": "001.inc-electrocell-001-001.workers.dev"
-        }
+        "type": "grpc",
+        "service_name": "vless"
       }
     },
     {
       "type": "vless",
       "tag": "🇨🇿 捷克 (Czech) 02 - xiaohe",
-      "server": "153.76.185.153",
-      "server_port": 3090,
-      "uuid": "3afa6b6d-e8d1-4931-878d-8a28b328256b",
-      "transport": {
-        "type": "grpc",
-        "service_name": "vless"
+      "server": "188.124.59.145",
+      "server_port": 18443,
+      "uuid": "8df7343e-2427-41fb-aad1-6c563296faf6",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "github.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "1KY_jqa2yPLBEBa-3TG77zs4ak2zQLGul4eexxCueyI",
+          "short_id": "f087eb07da743e94"
+        }
       }
     },
     {
