@@ -6,14 +6,14 @@
     {
       "type": "vless",
       "tag": "🇧🇷 巴西 (Brazil) 01 - xiaohe",
-      "server": "185.193.29.30",
-      "server_port": 8880,
+      "server": "104.21.70.21",
+      "server_port": 8080,
       "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
       "transport": {
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "vms.lifetime08.workers.dev"
+          "Host": "vms.lifetime36.workers.dev"
         }
       }
     },
