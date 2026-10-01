@@ -9,7 +9,7 @@ proxies:
   port: 443
   udp: true
   type: vless
-  uuid: 78d36530-c8b9-4ffa-bbe2-850fa11de2d8
+  uuid: a266761e-a42a-4be2-b1af-804062e91ef7
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
@@ -17,30 +17,17 @@ proxies:
     short-id: ed77ac35a310
   servername: www.setel.com
   client-fingerprint: chrome
-- name: 🇲🇾 马来西亚 (Malaysia) 02 - xiaohe
-  server: platform128.golnamakcert.top
-  port: 80
-  udp: true
-  type: vless
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  network: ws
-  ws-opts:
-    path: /platform128
-    headers:
-      Host: platform128.golnamakcert.top
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇲🇾 马来西亚 (Malaysia) 01 - xiaohe
-  - 🇲🇾 马来西亚 (Malaysia) 02 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇲🇾 马来西亚 (Malaysia) 01 - xiaohe
-  - 🇲🇾 马来西亚 (Malaysia) 02 - xiaohe
 rules:
 - MATCH,PROXIES
