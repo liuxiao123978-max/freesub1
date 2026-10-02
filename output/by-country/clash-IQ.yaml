@@ -5,20 +5,20 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇮🇶 IQ 01 - xiaohe
-  server: 104.21.82.226
+  server: chatgpt.com
   port: 443
   udp: true
   type: vless
-  uuid: 36a857e4-f3d4-43aa-8b90-d7da849da989
+  uuid: a43a9a45-7387-4faf-ad06-24b1ae181fdc
   tls: true
-  servername: 002.inc-electrocell-001-002.workers.dev
+  servername: snowy-glade-85fa.arshiatakalloo88.workers.dev
   skip-cert-verify: false
   client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /eyJqdW5rIjoib0RnakxTZUZvOSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
+    path: /eyJqdW5rIjoiVzg3NkFVRjZaUCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
     headers:
-      Host: 002.inc-electrocell-001-002.workers.dev
+      Host: snowy-glade-85fa.arshiatakalloo88.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select

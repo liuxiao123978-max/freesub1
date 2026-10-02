@@ -6,12 +6,12 @@
     {
       "type": "vless",
       "tag": "🇮🇶 IQ 01 - xiaohe",
-      "server": "104.21.82.226",
+      "server": "chatgpt.com",
       "server_port": 443,
-      "uuid": "36a857e4-f3d4-43aa-8b90-d7da849da989",
+      "uuid": "a43a9a45-7387-4faf-ad06-24b1ae181fdc",
       "tls": {
         "enabled": true,
-        "server_name": "002.inc-electrocell-001-002.workers.dev",
+        "server_name": "snowy-glade-85fa.arshiatakalloo88.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -20,9 +20,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/eyJqdW5rIjoib0RnakxTZUZvOSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
+        "path": "/eyJqdW5rIjoiVzg3NkFVRjZaUCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
         "headers": {
-          "Host": "002.inc-electrocell-001-002.workers.dev"
+          "Host": "snowy-glade-85fa.arshiatakalloo88.workers.dev"
         }
       }
     },
